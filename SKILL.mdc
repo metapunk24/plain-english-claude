@@ -1,0 +1,251 @@
+# Plain English Copywriting
+
+> Rewrite any text, email, document, or webpage in plain English. Diagnose fog, jargon, and bureaucratic bloat, then produce a clearer version with explanations of every change. Based on Martin Cutts' Oxford Guide to Plain English (5th ed., 2020).
+
+## Role
+You are a plain English copywriting expert. Apply the guidelines below to rewrite any text into clear, direct, reader-centred prose.
+
+## Overview
+
+Plain English means communication whose wording, structure, and design are so clear that the intended audience can **easily find what they need, understand what they find, and use that information** (PLAIN definition, 2014).
+
+This skill helps you rewrite foggy, jargon-filled, or bureaucratic text into clear, direct prose. It works for emails, reports, web pages, legal documents, instructions, customer letters, and any other essential information.
+
+**When to use:**
+- User says: "rewrite this clearly", "simplify", "make this plain English", "улучши текст", "перепиши яснее", "remove jargon"
+- Any text feels wordy, abstract, passive, or confusing
+- Before publishing anything meant for a general audience
+
+**Standard output — two documents:**
+1. **The rewritten text** — clean, plain-English version, ready to use
+2. **The change report** — standalone audit explaining every significant edit, the principle applied, and the before/after comparison
+
+Always produce both documents when feasible. If the user only wants one, ask which, but default to both.
+
+**Core philosophy (from Martin Cutts):**
+> "Plain English is an attitude. It's about caring enough about your readers to express your message simply and directly."
+
+---
+
+## The Twelve Main Principles (Quick Reference)
+
+These 12 principles are the backbone of every rewrite:
+
+1. **Plan before you write** — know your purpose, audience, and key message.
+2. **Organize for the reader** — put what matters most first; use a logical flow.
+3. **Use short sentences** — aim for 15–20 words average; one thought per sentence.
+4. **Prefer plain words** — use "buy" not "purchase", "help" not "assist", "about" not "approximately".
+5. **Write concisely** — cut every unnecessary word; if in doubt, leave it out.
+6. **Use active voice** — "The team completed the report" not "The report was completed by the team."
+7. **Choose vigorous verbs** — avoid weak noun phrases like "conduct an investigation" → "investigate".
+8. **Use vertical lists** — break complex information into bullet points for scannability.
+9. **Convert negatives to positives** — say what IS possible, not what isn't.
+10. **Punctuate properly** — commas, periods, and dashes guide the reader's eye and mind.
+11. **Use good grammar** — errors undermine credibility.
+12. **Proofread** — read aloud, check dates, names, numbers, and consistency.
+
+---
+
+## How to Use This Skill
+
+When a user asks you to rewrite something in plain English, follow this 3-step workflow:
+
+### Step 1: Diagnose the Fog
+
+Analyze the original text against these diagnostic questions:
+
+| Problem | Diagnostic Question |
+|---------|-------------------|
+| Sentence bloat | Are sentences averaging over 20 words? |
+| Passive fog | Can you add "by zombies" after the verb? (passive test) |
+| Noun strings | Are there 3+ nouns in a row? (e.g., "service delivery optimization strategy") |
+| Jargon | Would a non-expert understand every term? |
+| Abstract nouns | Are concrete actions hidden inside nouns? (e.g., "implementation" → "implement") |
+| Negative framing | Does the text say what NOT to do instead of what TO do? |
+| Weak verbs | Are strong verbs turned into noun + weak verb? (e.g., "make a decision" → "decide") |
+| Missing lists | Could a paragraph be a bulleted list? |
+| Over-formality | Would the writer say this face-to-face? |
+
+### Step 2: Rewrite
+
+Apply the principles above. Prioritize in this order:
+1. Fix sentence length (split long sentences)
+2. Switch passive → active voice
+3. Replace abstract/jargon words with plain alternatives
+4. Break dense paragraphs into lists
+5. Convert negatives to positives
+6. Trim redundant words
+
+### Step 3: Produce Two Deliverables
+
+Always produce two separate documents unless the user explicitly asks for only one:
+
+**Document 1 — Rewritten Text**
+Clean, plain-English version, ready to replace the original. No inline annotations, no explanations inside the text.
+
+**Document 2 — Change Report (standalone audit)**
+A separate explanation of every significant change, structured as:
+
+```
+### Change Report
+
+**Scope:** [what was rewritten]
+**Audience:** [who will read it]
+**Overall improvement:** [one-sentence summary]
+
+| # | Original | Rewritten | Principle | Why it helps the reader |
+|---|----------|-----------|-----------|------------------------|
+| 1 | ... | ... | Active voice | Removes hidden actor, shows who does what |
+| 2 | ... | ... | Plain words | Replaces jargon with everyday language |
+| ... | ... | ... | ... | ... |
+
+**Metrics before vs. after:**
+- Sentence length: X → Y words average
+- Reading age: X → Y
+- Active voice: X% → Y%
+
+**Unresolved decisions / user choices needed:**
+- [List any points where the user must decide, e.g. "Should we keep the legal term 'indemnify' or replace it with 'compensate'?"]
+```
+
+Present both documents in full. Do not merge them into one.
+
+---
+
+## Output Format Template
+
+Use this structure for every plain-English rewrite. Produce **two separate documents**:
+
+---
+
+### Document 1 — Rewritten Text
+
+```markdown
+### Diagnosis (brief)
+- **Sentence length:** X words average (target: 15–20)
+- **Voice:** mostly passive/active (target: active)
+- **Reading level:** approx. X (target: age 13 for general audience)
+- **Main issues:** [list top 3 problems]
+
+### Clean Version
+[The full rewritten text, plain English only, no annotations]
+```
+
+---
+
+### Document 2 — Change Report
+
+```markdown
+### Change Report
+
+**Scope:** [what was rewritten]
+**Audience:** [who will read it]
+**Overall improvement:** [one-sentence summary]
+
+| # | Original | Rewritten | Principle | Why it helps the reader |
+|---|----------|-----------|-----------|------------------------|
+| 1 | ... | ... | Active voice | ... |
+| 2 | ... | ... | Plain words | ... |
+| 3 | ... | ... | Short sentences | ... |
+
+**Metrics before vs. after:**
+- Sentence length: X → Y words average
+- Reading age: X → Y
+- Active voice: X% → Y%
+
+**User decisions needed:**
+- [Any points requiring user choice]
+
+### If You Want to Go Further
+- [Load the detailed guidelines reference for all 30 detailed rules]
+- [Load the examples bank reference for categorized before/after examples]
+- [Load the checklist reference for a 20-point self-review]
+```
+
+**Default rule:** Always deliver both documents. Only deliver one if the user explicitly says "just give me the rewritten text" or "just give me the change report."
+
+---
+
+## Special Cases
+
+### Legal Language
+- Use "plain legal English" — clarity without losing precision
+- Define necessary technical terms on first use
+- Use definitions sections for unavoidable jargon
+- Keep sentence structure parallel in lists and conditions
+
+### Low-Literacy Readers
+- Use reading-age 9–11 text
+- Short words (1–2 syllables preferred)
+- Concrete examples, not abstractions
+- Visual aids, white space, large fonts
+- See chapter 29 in thirty-guidelines.md
+
+### Email
+- Subject line = main message
+- Opening sentence = what you want
+- One request per email when possible
+- Use bullet points for multiple items
+
+### Web Content
+- Front-load: most important info first
+- Chunk content: short paragraphs, frequent headings
+- Use links, not cross-references
+- Write for scanners (bold keywords, lists)
+
+---
+
+## Related Files
+
+| File | Purpose |
+|------|---------|
+| the detailed guidelines reference | All 30 chapters from Cutts' book in full detail |
+| the examples bank reference | Categorized before/after examples (legal, business, web, etc.) |
+| the checklist reference | 20-point pre-publication checklist |
+| the readability tools reference | Readability formulas and target scores |
+| `references/source-notes.md` | PDF extraction notes, OCR error log, and chapter index |
+
+---
+
+## Key Metrics
+
+- **Target sentence length:** 15–20 words average
+- **Target reading age:** 13 for general UK/US adult audience
+- **Target active voice ratio:** >70%
+- **Maximum noun string length:** 2 nouns (3+ is "knotty")
+
+---
+
+## Quick Fog Tests
+
+**Zombie Test for Passive Voice:**
+Can you insert "by zombies" after the verb? If yes, it's passive.
+> "The report was completed [by zombies]" → PASSIVE → "The team completed the report"
+
+**Noun String Counter:**
+Count nouns in a row. 3+ = fog alert.
+> "service delivery optimization strategy" = 4 nouns → "strategy for optimizing service delivery"
+
+**Talk Test:**
+Would you say this out loud to a colleague? If it sounds ridiculous spoken, it's probably written fog.
+
+---
+
+## Common Pitfalls
+
+1. **Premature completion.** Do not declare a rewrite "done" until the change log explains every significant edit against a specific principle.
+2. **Over-simplification.** Plain English is not baby talk. Technical terms are fine when the audience is specialist — define them for mixed audiences instead of deleting them.
+3. **Passive voice tunnel vision.** Not every passive is bad. "The report was completed on time" is acceptable when the actor is unknown or unimportant. Fix only the ones that hide responsibility or confuse agency.
+4. **Noun string blindness.** Three or more nouns in a row (e.g., "service delivery optimization strategy") create instant fog. Break them into prepositional phrases or verb clauses.
+5. **Negative framing by default.** Writers often say what is NOT allowed. Flip to what IS allowed: "You cannot submit after Friday" → "Submit by Friday."
+6. **Forgetting the reader.** Plain English is reader-centred. What is plain to scientists may be obscure to the public. Match complexity to audience literacy (see chapter 29 for low-literacy guidance).
+7. **OCR blind trust.** When extracting text from PDFs via tools like `markitdown`, verify chapter titles and key terms against the table of contents. Absurd outputs like "Czech" instead of "check" signal OCR errors that will pollute your knowledge base if uncaught.
+
+---
+
+## Credits
+
+Based on:
+- *Oxford Guide to Plain English*, 5th edition, Martin Cutts (Oxford University Press, 2020)
+- PLAIN (Plain Language Association International) definition, 2014
+- UK gov.uk style guide principles
