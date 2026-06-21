@@ -1,0 +1,71 @@
+# Plain English Rewrite Template
+
+Use this template when rewriting any text in plain English. Fill in each section based on the diagnostic analysis.
+
+---
+
+## 1. Original Text
+
+Paste the original text here with problem areas briefly noted in [brackets].
+
+---
+
+## 2. Audience Analysis
+
+- **Who is the reader?** (general public / experts / customers / employees / lawyers)
+- **What do they need to do?** (understand / decide / act / comply / respond)
+- **What is their reading level?** (age 9–11 / 13 / 16 / university)
+
+---
+
+## 3. Diagnosis
+
+Check all that apply and score:
+
+- [ ] Sentences average >20 words: **YES / NO**
+- [ ] Passive voice dominant: **YES / NO**
+- [ ] Contains noun strings of 3+ nouns: **YES / NO**
+- [ ] Jargon without explanation: **YES / NO**
+- [ ] Abstract / vague wording: **YES / NO**
+- [ ] Negative framing (what NOT to do): **YES / NO**
+- [ ] Could use vertical lists: **YES / NO**
+- [ ] Over-formal / wouldn't say aloud: **YES / NO**
+
+**Top 3 problems:**
+1. 
+2. 
+3. 
+
+---
+
+## 4. Rewritten Text
+
+[Clean, plain-English version here]
+
+---
+
+## 5. Change Log
+
+| # | Original Problem | Rewritten Solution | Principle Applied |
+|---|------------------|-------------------|-------------------|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+---
+
+## 6. Optional Checks
+
+- [ ] Read aloud — does it sound natural?
+- [ ] Zombie test — no passive voice hiding?
+- [ ] Talk test — would you say this to a friend?
+- [ ] Hemingway / Readable score checked?
+- [ ] Reading age appropriate for audience?
+
+---
+
+## 7. Summary
+
+**Original reading time:** ~X min  
+**Rewritten reading time:** ~Y min  
+**Key improvement:** [one sentence]
