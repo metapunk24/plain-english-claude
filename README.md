@@ -12,32 +12,32 @@ Takes any foggy, jargon-filled text — legal documents, emails, reports, contra
 
 ## Install
 
-Copy the contents of this folder into your Claude project or context directory:
+**Claude Code:** clone into `~/.claude/skills/plain-english-copywriting/`:
 
 ```
-.claude/
-  plain-english.mdc            ← Main skill file
+~/.claude/skills/plain-english-copywriting/
+  SKILL.md                 ← Main skill file (YAML frontmatter: name + description)
   references/
-    examples-bank.mdc
-    quick-checklist.mdc
-    readability-tools.mdc
-    thirty-guidelines.mdc
+    examples-bank.md
+    quick-checklist.md
+    readability-tools.md
+    thirty-guidelines.md
   templates/
-    rewrite-template.mdc
+    rewrite-template.md
 ```
 
-Or simply paste `plain-english.mdc` into the chat context when working on a rewrite.
+**Claude.ai / desktop:** zip the folder (with `SKILL.md` at the root of the folder) and upload it in Settings → Capabilities → Skills.
 
 ## Structure
 
 | File | Purpose |
 |------|---------|
-| `SKILL.mdc` | Main skill file — no YAML frontmatter, adapted for Claude |
-| `references/thirty-guidelines.mdc` | All 30 chapters from Cutts' book |
-| `references/examples-bank.mdc` | Before/after examples by category |
-| `references/quick-checklist.mdc` | 20-point pre-publication checklist |
-| `references/readability-tools.mdc` | Readability formulas and targets |
-| `templates/rewrite-template.mdc` | Structured template for rewrites |
+| `SKILL.md` | Main skill file with YAML frontmatter |
+| `references/thirty-guidelines.md` | All 30 chapters from Cutts' book |
+| `references/examples-bank.md` | Before/after examples by category |
+| `references/quick-checklist.md` | 20-point pre-publication checklist |
+| `references/readability-tools.md` | Readability formulas and targets |
+| `templates/rewrite-template.md` | Structured template for rewrites |
 
 ## Metrics
 
