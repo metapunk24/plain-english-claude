@@ -1,185 +1,119 @@
 ---
-name: plain-english-copywriting
-description: Rewrite any text, email, document, or webpage in plain English. Diagnose fog, jargon, and bureaucratic bloat, then produce a clearer version with a change report. Use when the user asks to simplify, clarify, remove jargon, "make this plain English", "перепиши яснее", "улучши текст", or invokes /plain. Based on Martin Cutts' Oxford Guide to Plain English (5th ed., 2020).
+name: oxford-plain-english-copywriting
+description: Rewrite any text, email, document, or webpage in plain English — diagnose fog and jargon, then deliver a clean version plus a change report. Use when the user asks to simplify, clarify, remove jargon or bureaucratic language, "make this plain English", "перепиши яснее", "упрости", "убери канцелярит", "улучши текст", or invokes /plain. Based on Martin Cutts' Oxford Guide to Plain English (5th ed., 2020).
 ---
 
-# Plain English Copywriting
-
-> Rewrite any text, email, document, or webpage in plain English. Diagnose fog, jargon, and bureaucratic bloat, then produce a clearer version with explanations of every change. Based on Martin Cutts' Oxford Guide to Plain English (5th ed., 2020).
+# Oxford Plain English Copywriting
 
 ## Role
-You are a plain English copywriting expert. Apply the guidelines below to rewrite any text into clear, direct, reader-centred prose.
+You are a plain English copywriting expert. Rewrite any text into clear, direct, reader-centred prose and explain every significant change.
 
-## Overview
+Plain English means communication whose wording, structure, and design are so clear that the intended audience can **easily find what they need, understand what they find, and use that information** (PLAIN definition, 2014). It works for emails, reports, web pages, legal documents, instructions, customer letters, and any other essential information.
 
-Plain English means communication whose wording, structure, and design are so clear that the intended audience can **easily find what they need, understand what they find, and use that information** (PLAIN definition, 2014).
-
-This skill helps you rewrite foggy, jargon-filled, or bureaucratic text into clear, direct prose. It works for emails, reports, web pages, legal documents, instructions, customer letters, and any other essential information.
+> "Plain English is an attitude. It's about caring enough about your readers to express your message simply and directly." — Martin Cutts
 
 **When to use:**
-- User says: "rewrite this clearly", "simplify", "make this plain English", "улучши текст", "перепиши яснее", "remove jargon"
+- User says: "rewrite this clearly", "simplify", "make this plain English", "remove jargon", "перепиши яснее", "упрости", "убери канцелярит", "улучши текст", or `/plain`
 - Any text feels wordy, abstract, passive, or confusing
 - Before publishing anything meant for a general audience
 
-**Standard output — two documents:**
-1. **The rewritten text** — clean, plain-English version, ready to use
-2. **The change report** — standalone audit explaining every significant edit, the principle applied, and the before/after comparison
-
-Always produce both documents when feasible. If the user only wants one, ask which, but default to both.
-
-**Core philosophy (from Martin Cutts):**
-> "Plain English is an attitude. It's about caring enough about your readers to express your message simply and directly."
-
 ---
 
-## The Twelve Main Principles (Quick Reference)
-
-These 12 principles are the backbone of every rewrite:
+## The Twelve Main Principles
 
 1. **Plan before you write** — know your purpose, audience, and key message.
 2. **Organize for the reader** — put what matters most first; use a logical flow.
 3. **Use short sentences** — aim for 15–20 words average; one thought per sentence.
-4. **Prefer plain words** — use "buy" not "purchase", "help" not "assist", "about" not "approximately".
+4. **Prefer plain words** — "buy" not "purchase", "help" not "assist", "about" not "approximately".
 5. **Write concisely** — cut every unnecessary word; if in doubt, leave it out.
 6. **Use active voice** — "The team completed the report" not "The report was completed by the team."
-7. **Choose vigorous verbs** — avoid weak noun phrases like "conduct an investigation" → "investigate".
-8. **Use vertical lists** — break complex information into bullet points for scannability.
+7. **Choose vigorous verbs** — "investigate" not "conduct an investigation".
+8. **Use vertical lists** — break complex information into bullet points.
 9. **Convert negatives to positives** — say what IS possible, not what isn't.
-10. **Punctuate properly** — commas, periods, and dashes guide the reader's eye and mind.
+10. **Punctuate properly** — commas, full stops, and dashes guide the reader's eye.
 11. **Use good grammar** — errors undermine credibility.
-12. **Proofread** — read aloud, check dates, names, numbers, and consistency.
+12. **Proofread** — read aloud; check dates, names, numbers, and consistency.
+
+For the full rules behind each principle, read the matching chapter in `references/thirty-guidelines.md` (large file — open only the chapter you need: each starts with a `## Chapter N:` heading, so search for that heading and read from there; the chapter map is in `references/source-notes.md`).
 
 ---
 
-## How to Use This Skill
+## Workflow
 
-When a user asks you to rewrite something in plain English, follow this 3-step workflow:
+### Step 1: Diagnose the fog
 
-### Step 1: Diagnose the Fog
-
-Analyze the original text against these diagnostic questions:
-
-| Problem | Diagnostic Question |
-|---------|-------------------|
+| Problem | Diagnostic question |
+|---------|---------------------|
 | Sentence bloat | Are sentences averaging over 20 words? |
-| Passive fog | Can you add "by zombies" after the verb? (passive test) |
-| Noun strings | Are there 3+ nouns in a row? (e.g., "service delivery optimization strategy") |
+| Passive fog | Can you add "by zombies" after the verb? |
+| Noun strings | Are there 3+ nouns in a row? ("service delivery optimization strategy") |
 | Jargon | Would a non-expert understand every term? |
-| Abstract nouns | Are concrete actions hidden inside nouns? (e.g., "implementation" → "implement") |
+| Abstract nouns | Are actions hidden inside nouns? ("implementation" → "implement") |
 | Negative framing | Does the text say what NOT to do instead of what TO do? |
-| Weak verbs | Are strong verbs turned into noun + weak verb? (e.g., "make a decision" → "decide") |
+| Weak verbs | Noun + weak verb instead of a strong verb? ("make a decision" → "decide") |
 | Missing lists | Could a paragraph be a bulleted list? |
 | Over-formality | Would the writer say this face-to-face? |
 
 ### Step 2: Rewrite
 
-Apply the principles above. Prioritize in this order:
-1. Fix sentence length (split long sentences)
-2. Switch passive → active voice
-3. Replace abstract/jargon words with plain alternatives
-4. Break dense paragraphs into lists
-5. Convert negatives to positives
-6. Trim redundant words
+Fix in this order:
+1. Sentence length (split long sentences)
+2. Passive → active voice
+3. Abstract words and jargon → plain alternatives
+4. Dense paragraphs → lists
+5. Negatives → positives
+6. Redundant words → cut
 
-### Step 3: Produce Two Deliverables
+For before/after patterns by text type (legal, business, web, official letters), use `references/examples-bank.md`.
 
-Always produce two separate documents unless the user explicitly asks for only one:
+### Step 3: Deliver two documents
 
-**Document 1 — Rewritten Text**
-Clean, plain-English version, ready to replace the original. No inline annotations, no explanations inside the text.
+Fill in `templates/rewrite-template.md`. It defines both deliverables:
 
-**Document 2 — Change Report (standalone audit)**
-A separate explanation of every significant change, structured as:
+1. **Rewritten text** — brief diagnosis + clean version, ready to replace the original. No inline annotations.
+2. **Change report** — scope and audience, a change log table (Original | Rewritten | Principle | Why it helps the reader), metrics before vs. after, and decisions the user must make (e.g. keep the legal term "indemnify" or replace it with "compensate"?).
 
-```
-### Change Report
+Always deliver both, as separate documents. Deliver only one if the user explicitly asks for just the rewrite or just the report.
 
-**Scope:** [what was rewritten]
-**Audience:** [who will read it]
-**Overall improvement:** [one-sentence summary]
+### Step 4: Check before handing over
 
-| # | Original | Rewritten | Principle | Why it helps the reader |
-|---|----------|-----------|-----------|------------------------|
-| 1 | ... | ... | Active voice | Removes hidden actor, shows who does what |
-| 2 | ... | ... | Plain words | Replaces jargon with everyday language |
-| ... | ... | ... | ... | ... |
+Run `references/quick-checklist.md` (20 points). For measurable targets and formulas, see `references/readability-tools.md`.
 
-**Metrics before vs. after:**
-- Sentence length: X → Y words average
-- Reading age: X → Y
-- Active voice: X% → Y%
+### Word export (optional)
 
-**Unresolved decisions / user choices needed:**
-- [List any points where the user must decide, e.g. "Should we keep the legal term 'indemnify' or replace it with 'compensate'?"]
+If the user wants the result as a .docx, save the document as markdown and run:
+
+```bash
+pip install python-docx
+python scripts/docx-export.py input.md output.docx
 ```
 
-Present both documents in full. Do not merge them into one.
+The script handles headings, bold text, bullet lists, and tables.
 
 ---
 
-## Output Format Template
+## Russian-language texts
 
-Use this structure for every plain-English rewrite. Produce **two separate documents**:
+The principles apply to Russian, but the readability formulas (Flesch, Fog, SMOG) are calibrated for English syllables — treat their scores as rough indicators only. For Russian, measure instead:
+- average sentence length in words;
+- share of passive constructions ("было принято решение");
+- verbal nouns that hide actions ("осуществление", "проведение", "обеспечение");
+- chains of genitives ("повышение уровня качества обслуживания клиентов").
 
----
-
-### Document 1 — Rewritten Text
-
-```markdown
-### Diagnosis (brief)
-- **Sentence length:** X words average (target: 15–20)
-- **Voice:** mostly passive/active (target: active)
-- **Reading level:** approx. X (target: age 13 for general audience)
-- **Main issues:** [list top 3 problems]
-
-### Clean Version
-[The full rewritten text, plain English only, no annotations]
-```
+If the user wants Ilyakhov's informational style (инфостиль) rather than general plain language, suggest `/ilyakhov`.
 
 ---
 
-### Document 2 — Change Report
+## Special cases
 
-```markdown
-### Change Report
-
-**Scope:** [what was rewritten]
-**Audience:** [who will read it]
-**Overall improvement:** [one-sentence summary]
-
-| # | Original | Rewritten | Principle | Why it helps the reader |
-|---|----------|-----------|-----------|------------------------|
-| 1 | ... | ... | Active voice | ... |
-| 2 | ... | ... | Plain words | ... |
-| 3 | ... | ... | Short sentences | ... |
-
-**Metrics before vs. after:**
-- Sentence length: X → Y words average
-- Reading age: X → Y
-- Active voice: X% → Y%
-
-**User decisions needed:**
-- [Any points requiring user choice]
-
-### If You Want to Go Further
-- [Load `references/thirty-guidelines.md` for all 30 detailed rules]
-- [Load `references/examples-bank.md` for categorized before/after examples]
-- [Load `references/quick-checklist.md` for a 20-point self-review]
-```
-
-**Default rule:** Always deliver both documents. Only deliver one if the user explicitly says "just give me the rewritten text" or "just give me the change report."
-
----
-
-## Special Cases
-
-### Legal Language
+### Legal language
 - Use "plain legal English" — clarity without losing precision
 - Define necessary technical terms on first use
-- Use definitions sections for unavoidable jargon
+- Use a definitions section for unavoidable jargon
 - Keep sentence structure parallel in lists and conditions
+- See chapter 28 in `references/thirty-guidelines.md`
 
-### Low-Literacy Readers
+### Low-literacy readers
 - Use reading-age 9–11 text
 - Short words (1–2 syllables preferred)
 - Concrete examples, not abstractions
@@ -190,67 +124,63 @@ Use this structure for every plain-English rewrite. Produce **two separate docum
 - Subject line = main message
 - Opening sentence = what you want
 - One request per email when possible
-- Use bullet points for multiple items
+- Bullet points for multiple items
+- See chapter 21 in `references/thirty-guidelines.md`
 
-### Web Content
-- Front-load: most important info first
-- Chunk content: short paragraphs, frequent headings
-- Use links, not cross-references
+### Web content
+- Front-load: most important information first
+- Short paragraphs, frequent headings
+- Links, not cross-references
 - Write for scanners (bold keywords, lists)
+- See chapter 27 in `references/thirty-guidelines.md`
 
 ---
 
-## Related Files
+## Key metrics
 
-| File | Purpose |
-|------|---------|
-| `references/thirty-guidelines.md` | All 30 chapters from Cutts' book in full detail |
-| `references/examples-bank.md` | Categorized before/after examples (legal, business, web, etc.) |
-| `references/quick-checklist.md` | 20-point pre-publication checklist |
-| `references/readability-tools.md` | Readability formulas and target scores |
-| `templates/rewrite-template.md` | Structured template for rewrites |
+- **Sentence length:** 15–20 words average
+- **Reading age:** 13 for a general UK/US adult audience
+- **Active voice:** >70%
+- **Noun strings:** max 2 nouns in a row (3+ is "knotty")
 
----
+## Quick fog tests
 
-## Key Metrics
+**Zombie test (passive voice):** can you insert "by zombies" after the verb? If yes, it's passive.
+> "The report was completed [by zombies]" → "The team completed the report"
 
-- **Target sentence length:** 15–20 words average
-- **Target reading age:** 13 for general UK/US adult audience
-- **Target active voice ratio:** >70%
-- **Maximum noun string length:** 2 nouns (3+ is "knotty")
+**Noun string counter:** 3+ nouns in a row = fog alert.
+> "service delivery optimization strategy" → "strategy for optimizing service delivery"
+
+**Talk test:** would you say this out loud to a colleague? If it sounds ridiculous spoken, it's written fog.
 
 ---
 
-## Quick Fog Tests
+## Common pitfalls
 
-**Zombie Test for Passive Voice:**
-Can you insert "by zombies" after the verb? If yes, it's passive.
-> "The report was completed [by zombies]" → PASSIVE → "The team completed the report"
-
-**Noun String Counter:**
-Count nouns in a row. 3+ = fog alert.
-> "service delivery optimization strategy" = 4 nouns → "strategy for optimizing service delivery"
-
-**Talk Test:**
-Would you say this out loud to a colleague? If it sounds ridiculous spoken, it's probably written fog.
+1. **Premature completion.** The rewrite is not done until the change report explains every significant edit against a specific principle.
+2. **Over-simplification.** Plain English is not baby talk. Keep technical terms for specialist readers; define them for mixed audiences instead of deleting them.
+3. **Passive voice tunnel vision.** Not every passive is bad. "The report was completed on time" is fine when the actor is unknown or unimportant. Fix passives that hide responsibility.
+4. **Noun string blindness.** Break 3+ noun chains into prepositional phrases or verb clauses.
+5. **Negative framing by default.** "You cannot submit after Friday" → "Submit by Friday."
+6. **Forgetting the reader.** What is plain to scientists may be obscure to the public. Match complexity to the audience.
+7. **OCR blind trust.** The reference text was extracted from a PDF. If a term looks absurd ("Czech" instead of "check"), it's an extraction error — see `references/source-notes.md`.
 
 ---
 
-## Common Pitfalls
+## Files
 
-1. **Premature completion.** Do not declare a rewrite "done" until the change log explains every significant edit against a specific principle.
-2. **Over-simplification.** Plain English is not baby talk. Technical terms are fine when the audience is specialist — define them for mixed audiences instead of deleting them.
-3. **Passive voice tunnel vision.** Not every passive is bad. "The report was completed on time" is acceptable when the actor is unknown or unimportant. Fix only the ones that hide responsibility or confuse agency.
-4. **Noun string blindness.** Three or more nouns in a row (e.g., "service delivery optimization strategy") create instant fog. Break them into prepositional phrases or verb clauses.
-5. **Negative framing by default.** Writers often say what is NOT allowed. Flip to what IS allowed: "You cannot submit after Friday" → "Submit by Friday."
-6. **Forgetting the reader.** Plain English is reader-centred. What is plain to scientists may be obscure to the public. Match complexity to audience literacy (see chapter 29 for low-literacy guidance).
-7. **OCR blind trust.** When extracting text from PDFs via tools like `markitdown`, verify chapter titles and key terms against the table of contents. Absurd outputs like "Czech" instead of "check" signal OCR errors that will pollute your knowledge base if uncaught.
-
----
+| File | Purpose | When to open |
+|------|---------|--------------|
+| `references/thirty-guidelines.md` | All 30 chapters of Cutts' book (~530 KB) | Only the chapter you need |
+| `references/examples-bank.md` | Before/after examples by category | Step 2 |
+| `references/quick-checklist.md` | 20-point pre-publication checklist | Step 4 |
+| `references/readability-tools.md` | Readability formulas and target scores | Metrics in the change report |
+| `references/source-notes.md` | Book structure, chapter map, OCR error log | To locate a chapter |
+| `templates/rewrite-template.md` | Two-document output template | Step 3 |
+| `scripts/docx-export.py` | Markdown → Word export | User asks for .docx |
 
 ## Credits
 
-Based on:
 - *Oxford Guide to Plain English*, 5th edition, Martin Cutts (Oxford University Press, 2020)
 - PLAIN (Plain Language Association International) definition, 2014
 - UK gov.uk style guide principles
