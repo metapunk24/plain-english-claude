@@ -1,6 +1,6 @@
 ---
-name: oxford-plain-english-copywriting
-description: Rewrite any text, email, document, or webpage in plain English — diagnose fog and jargon, then deliver a clean version plus a change report. Use when the user asks to simplify, clarify, remove jargon or bureaucratic language, "make this plain English", "перепиши яснее", "упрости", "убери канцелярит", "улучши текст", or invokes /plain. Based on Martin Cutts' Oxford Guide to Plain English (5th ed., 2020).
+name: "oxford-plain-english-copywriting"
+description: "Rewrite any text, email, document, or webpage in plain English — diagnose fog and jargon, then deliver a clean version plus a change report. Use when the user asks to simplify, clarify, remove jargon or bureaucratic language, \"перепиши яснее\", \"упрости\", \"убери канцелярит\", or invokes /plain."
 ---
 
 # Oxford Plain English Copywriting
